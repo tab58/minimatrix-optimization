@@ -1,0 +1,36 @@
+{
+  "name": "minimatrix-optimization",
+  "version": "0.1.0",
+  "description": "An optimization package for minimatrix.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/opt-spec.js",
+    "generate-docs": "node_modules/.bin/jsdoc -c ./jsdoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tab58/minimatrix-optimization.git"
+  },
+  "keywords": [
+    "optimization",
+    "minimatrix"
+  ],
+  "author": "Tim Bright",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tab58/minimatrix-optimization/issues"
+  },
+  "homepage": "https://github.com/tab58/minimatrix-optimization#readme",
+  "dependencies": {
+    "minimatrix": "^1.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "docdash": "^0.4.0",
+    "jsdoc": "^3.5.5"
+  }
+}
