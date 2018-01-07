@@ -135,6 +135,7 @@ function quasiNewton (options) {
   return {
     solutionValid: Math.abs(f1 - f0) < tolerance || Math.abs(gradNorm) < tolerance,
     iterations: iter,
+    solution: x0,
     objective: f1,
     gradNorm
   };
