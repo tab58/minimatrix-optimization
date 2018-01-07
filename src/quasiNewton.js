@@ -49,6 +49,7 @@ const defaults = Object.freeze({
  * @property {boolean} solutionValid True if the solution meets the criteria for a solution, false if not.
  * @property {number} iterations The number of iterations taken to arrive at the solution.
  * @property {number} objective The value of the objective function at the solution.
+ * @property {(Vector2|Vector3|Vector4)} solution The solution of the optimization.
  * @property {number} gradNorm The norm of the gradient vector.
  */
 
