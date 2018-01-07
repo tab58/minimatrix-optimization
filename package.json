@@ -1,8 +1,8 @@
 {
   "name": "minimatrix-optimization",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "An optimization package for minimatrix.",
-  "main": "index.js",
+  "main": "src/index.js",
   "directories": {
     "test": "test"
   },
